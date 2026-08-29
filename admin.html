@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Admin - Rumah Sunat Pratama</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--logo-url:url("data:image/jpeg;base64,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");--primary:#166534;--primary-dark:#14532d;--accent:#22c55e;}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+body{font-family:'Poppins',sans-serif;background:#f0fdf4;color:#1e293b;overflow-x:hidden;}
+.logo-img{background-image:var(--logo-url);background-size:cover;background-position:center;border-radius:50%;background-color:white;flex-shrink:0;}
+
+/* Navbar Admin */
+.navbar{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);padding:10px 14px;display:flex;justify-content:space-between;align-items:center;color:white;border-radius:0 0 20px 20px;box-shadow:0 4px 20px rgba(22,101,52,0.3);position:sticky;top:0;z-index:1000;}
+.navbar-brand{display:flex;align-items:center;gap:10px;}
+.navbar-brand .logo-img{width:40px;height:40px;border:2px solid rgba(255,255,255,0.4);}
+.navbar-brand h1{font-size:15px;font-weight:700;letter-spacing:0.3px;line-height:1.2;}
+.navbar-brand p{font-size:9px;opacity:0.85;letter-spacing:0.5px;margin:0;}
+.nav-links{display:flex;gap:5px;align-items:center;}
+.nav-links a,.nav-links button{background:rgba(255,255,255,0.12);border:none;color:white;padding:6px 10px;border-radius:20px;cursor:pointer;font-weight:500;font-family:'Poppins',sans-serif;font-size:11px;transition:all 0.3s;text-decoration:none;display:inline-flex;align-items:center;gap:4px;}
+.nav-links a:hover,.nav-links button:hover{background:rgba(255,255,255,0.3);}
+
+/* Pages */
+.page{display:none;padding:0;min-height:calc(100vh - 180px);}
+.page.active{display:block;}
+
+/* Admin Login */
+.admin-login-container{padding:30px 14px;max-width:380px;margin:0 auto;min-height:60vh;display:flex;align-items:center;justify-content:center;}
+.admin-login-box{background:white;padding:28px;border-radius:18px;box-shadow:0 8px 32px rgba(0,0,0,0.1);border:1px solid #dcfce7;text-align:center;width:100%;}
+.admin-login-box .logo-img{width:70px;height:70px;border:3px solid #bbf7d0;margin-bottom:14px;display:inline-block;}
+.admin-login-box h2{color:var(--primary-dark);margin:0 0 4px 0;font-size:20px;}
+.admin-login-box>p{color:#4b7c5e;margin:0 0 20px 0;font-size:12px;}
+.admin-login-box input{width:100%;padding:10px 12px;border:2px solid #dcfce7;border-radius:10px;font-size:14px;font-family:'Poppins',sans-serif;margin-bottom:12px;box-sizing:border-box;}
+.admin-login-box input:focus{outline:none;border-color:var(--primary);}
+.btn-admin-login{width:100%;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;border:none;padding:12px;border-radius:10px;font-size:15px;font-weight:700;cursor:pointer;font-family:'Poppins',sans-serif;}
+.login-error{color:#ef4444;font-size:12px;margin-top:8px;display:none;}
+.login-error.show{display:block;}
+
+/* Admin Dashboard */
+.admin-container{padding:14px;max-width:1100px;margin:0 auto;}
+.admin-header{background:white;padding:16px;border-radius:14px;border:1px solid #dcfce7;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;}
+.admin-header h2{color:var(--primary-dark);margin:0;font-size:18px;}
+.admin-header p{color:#4b7c5e;margin:2px 0 0 0;font-size:12px;}
+.admin-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:10px;margin-bottom:16px;}
+.stat-card{background:white;padding:14px;border-radius:12px;border:1px solid #dcfce7;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.04);}
+.stat-card .num{font-size:24px;font-weight:800;color:var(--primary);}
+.stat-card .label{font-size:11px;color:#4b7c5e;margin-top:3px;}
+.stat-card.panggil{border-top:3px solid #3b82f6;}
+.stat-card.praktik{border-top:3px solid var(--accent);}
+.stat-card.total{border-top:3px solid var(--primary);}
+.stat-card.baru{border-top:3px solid #ef4444;}
+.admin-actions{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;}
+.btn-admin{padding:8px 14px;border-radius:10px;border:none;font-size:12px;font-weight:600;cursor:pointer;font-family:'Poppins',sans-serif;display:inline-flex;align-items:center;gap:4px;}
+.btn-admin-add{background:var(--primary);color:white;}
+.btn-admin-read{background:#f59e0b;color:white;}
+.btn-admin-web{background:#dbeafe;color:#1e40af;}
+.btn-admin-logout{background:#fee2e2;color:#991b1b;}
+.admin-table-wrapper{overflow-x:auto;-webkit-overflow-scrolling:touch;}
+.admin-table{width:100%;border-collapse:collapse;background:white;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.04);min-width:700px;}
+.admin-table th{background:#f0fdf4;color:var(--primary-dark);padding:10px;text-align:left;font-size:11px;font-weight:700;border-bottom:2px solid #bbf7d0;white-space:nowrap;}
+.admin-table td{padding:10px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#334155;}
+.admin-table tr:hover{background:#f8fafc;}
+.admin-table tr.new-row{background:#fef2f2;}
+.admin-table tr.new-row:hover{background:#fee2e2;}
+.badge{display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;}
+.badge-panggil{background:#dbeafe;color:#1e40af;}
+.badge-praktik{background:#dcfce7;color:#166534;}
+.badge-new{background:#ef4444;color:white;font-size:8px;padding:1px 4px;border-radius:6px;margin-left:3px;animation:pulse 1.5s infinite;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+.btn-small{padding:4px 8px;border-radius:5px;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:'Poppins',sans-serif;}
+.btn-view{background:var(--primary);color:white;}
+.btn-edit{background:#dbeafe;color:#1e40af;}
+.btn-delete{background:#fee2e2;color:#991b1b;}
+
+/* Modal */
+.modal-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:2000;align-items:center;justify-content:center;padding:14px;}
+.modal-overlay.active{display:flex;}
+.modal-box{background:white;padding:20px;border-radius:18px;max-width:560px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
+.modal-box h3{color:var(--primary-dark);margin:0 0 14px 0;font-size:18px;}
+.modal-close{float:right;background:none;border:none;font-size:22px;cursor:pointer;color:#64748b;}
+.form-group{margin-bottom:14px;}
+.form-group label{display:block;color:#334155;font-weight:600;margin-bottom:4px;font-size:12px;}
+.form-group label .required{color:#ef4444;}
+.form-group input,.form-group textarea,.form-group select{width:100%;padding:10px 12px;border:2px solid #dcfce7;border-radius:10px;font-size:14px;font-family:'Poppins',sans-serif;transition:border-color 0.3s;box-sizing:border-box;background:#fafffb;}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{outline:none;border-color:var(--primary);background:white;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.btn-submit{width:100%;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;border:none;padding:12px;border-radius:12px;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 4px 15px rgba(22,101,52,0.3);font-family:'Poppins',sans-serif;transition:transform 0.2s;}
+.btn-submit:hover{transform:translateY(-2px);}
+
+/* Footer */
+footer{background:var(--primary-dark);color:white;padding:20px 14px;text-align:center;margin-top:30px;border-radius:20px 20px 0 0;}
+footer .brand{font-weight:700;margin-bottom:4px;font-size:14px;}
+footer .tagline{font-size:11px;opacity:0.8;}
+footer .copy{margin-top:10px;font-size:10px;opacity:0.5;}
+
+/* Toast */
+.toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--primary-dark);color:white;padding:12px 20px;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.2);z-index:3000;opacity:0;transition:all 0.4s ease;font-size:13px;font-weight:500;text-align:center;max-width:90%;}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1;}
+
+@media (max-width:768px){.admin-header{flex-direction:column;text-align:center;}.admin-stats{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:480px){.admin-login-box{padding:20px;}.stat-card .num{font-size:20px;}}
+</style>
+<base target="_blank">
+</head>
+<body>
+
+<!-- Navbar Admin -->
+<nav class="navbar">
+    <div class="navbar-brand">
+        <div class="logo-img"></div>
+        <div>
+            <h1>ADMIN PANEL</h1>
+            <p>Rumah Sunat Pratama</p>
+        </div>
+    </div>
+    <div class="nav-links">
+        <a href="index.html" class="btn-admin-web">🌐 Masuk ke Website</a>
+        <button onclick="adminLogout()">🚪 Logout</button>
+    </div>
+</nav>
+
+<!-- ADMIN LOGIN -->
+<div id="page-admin-login" class="page active">
+    <div class="admin-login-container">
+        <div class="admin-login-box">
+            <div class="logo-img"></div>
+            <h2>Login Admin</h2>
+            <p>Masukkan username dan password</p>
+            <form onsubmit="adminLogin(event)">
+                <input type="text" id="adminUser" placeholder="Username: admin" required>
+                <input type="password" id="adminPass" placeholder="Password: pratama123" required>
+                <button type="submit" class="btn-admin-login">Masuk</button>
+            </form>
+            <p class="login-error" id="loginError">Username atau password salah!</p>
+        </div>
+    </div>
+</div>
+
+<!-- ADMIN DASHBOARD -->
+<div id="page-admin-dashboard" class="page">
+    <div class="admin-container">
+        <div class="admin-header">
+            <div>
+                <h2>Dashboard Admin</h2>
+                <p>Kelola pendaftaran khitan</p>
+            </div>
+            <div class="admin-actions">
+                <button class="btn-admin btn-admin-add" onclick="openAddModal()">Tambah</button>
+                <button class="btn-admin btn-admin-read" onclick="markAllRead()">Dibaca</button>
+                <a href="index.html" class="btn-admin btn-admin-web">Website</a>
+                <button class="btn-admin btn-admin-logout" onclick="adminLogout()">Logout</button>
+            </div>
+        </div>
+        <div class="admin-stats" id="adminStats">
+            <div class="stat-card total"><div class="num" id="statTotal">0</div><div class="label">Total</div></div>
+            <div class="stat-card panggil"><div class="num" id="statPanggil">0</div><div class="label">Panggilan</div></div>
+            <div class="stat-card praktik"><div class="num" id="statPraktik">0</div><div class="label">Ke Praktik</div></div>
+            <div class="stat-card baru"><div class="num" id="statBaru">0</div><div class="label">Baru</div></div>
+        </div>
+        <div class="admin-table-wrapper">
+            <table class="admin-table" id="adminTable">
+                <thead>
+                    <tr><th>No</th><th>Nama Anak</th><th>Umur</th><th>HP</th><th>Tanggal</th><th>Jam</th><th>Metode</th><th>Layanan</th><th>Sumber</th><th>Aksi</th></tr>
+                </thead>
+                <tbody id="adminTableBody">
+                    <tr><td colspan="10" style="text-align:center;color:#94a3b8;padding:40px;">Belum ada data</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal-box" onclick="event.stopPropagation()">
+        <button class="modal-close" onclick="closeModal()">✕</button>
+        <h3 id="modalTitle">Tambah Pendaftar Manual</h3>
+        <form id="adminForm" onsubmit="saveAdminForm(event)">
+            <input type="hidden" id="editId">
+            <div class="form-row">
+                <div class="form-group"><label>Nama Anak <span class="required">*</span></label><input type="text" id="admNamaAnak" required></div>
+                <div class="form-group"><label>Umur (th) <span class="required">*</span></label><input type="number" id="admUmur" required min="0" max="20"></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group"><label>Berat (kg) <span class="required">*</span></label><input type="number" id="admBerat" required min="1" max="100" step="0.1"></div>
+                <div class="form-group"><label>Nama Ortu <span class="required">*</span></label><input type="text" id="admNamaOrtu" required></div>
+            </div>
+            <div class="form-row">
+                <div class="form-group"><label>No HP <span class="required">*</span></label><input type="tel" id="admNoHp" required placeholder="08123456789"></div>
+                <div class="form-group"><label>Tanggal Khitan <span class="required">*</span></label><input type="date" id="admTglKhitan" required></div>
+            </div>
+            <div class="form-group"><label>Alamat <span class="required">*</span></label><textarea id="admAlamat" required rows="2"></textarea></div>
+            <div class="form-group"><label>Riwayat Alergi</label><textarea id="admAlergi" rows="2" placeholder="Tidak ada"></textarea></div>
+            <div class="form-row">
+                <div class="form-group"><label>Jam Khitan <span class="required">*</span></label><input type="time" id="admJamKhitan" required></div>
+                <div class="form-group">
+                    <label>Metode Khitan <span class="required">*</span></label>
+                    <select id="admMetodeKhitan" required>
+                        <option value="Manual (Konvensional)">Manual (Konvensional)</option>
+                        <option value="Laser (Electrocauter)">Laser (Electrocauter)</option>
+                        <option value="Cincin / Ring (Klem)">Cincin / Ring (Klem)</option>
+                        <option value="Plasma Energy">Plasma Energy</option>
+                        <option value="Plasma Energy VIP">Plasma Energy VIP</option>
+                        <option value="Stapler">Stapler</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Layanan <span class="required">*</span></label>
+                    <select id="admLayanan" required>
+                        <option value="Panggilan ke Rumah">Panggilan ke Rumah</option>
+                        <option value="Datang ke Praktik">Datang ke Praktik</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Sumber Info <span class="required">*</span></label>
+                    <select id="admSumber" required>
+                        <option value="Manual (Admin)">Input Manual Admin</option>
+                        <option value="Google">Google</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="TikTok">TikTok</option>
+                        <option value="Teman/Keluarga">Teman/Keluarga</option>
+                        <option value="Spanduk/Brosur">Spanduk/Brosur</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn-submit" style="margin-top:6px;">Simpan Data</button>
+        </form>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <p class="brand">Admin Panel - Rumah Sunat Pratama</p>
+    <p class="tagline">Sunat Tanpa Jarum Suntik — Aman & Menyenangkan</p>
+    <p class="copy">2026 Rumah Sunat Pratama. All rights reserved.</p>
+</footer>
+
+<!-- TOAST -->
+<div id="toast" class="toast"></div>
+
+<script>
+const STORAGE_KEY = 'rsp_pendaftar_v4';
+const SEEN_KEY = 'rsp_admin_seen_v4';
+const AUTH_KEY = 'rsp_admin_auth_v4';
+
+let pendaftarList = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+let isAdminLoggedIn = localStorage.getItem(AUTH_KEY) === 'true';
+
+function showPage(page) {
+    document.querySelectorAll('.page').forEach(function(p) { p.classList.remove('active'); });
+    document.getElementById('page-' + page).classList.add('active');
+    window.scrollTo(0, 0);
+    if (page === 'admin-dashboard') renderAdminDashboard();
+}
+
+function showToast(msg) {
+    var toast = document.getElementById('toast');
+    toast.textContent = msg;
+    toast.classList.add('show');
+    setTimeout(function() { toast.classList.remove('show'); }, 3000);
+}
+
+function getUnreadCount() {
+    var seenIds = JSON.parse(localStorage.getItem(SEEN_KEY)) || [];
+    var count = 0;
+    for (var i = 0; i < pendaftarList.length; i++) {
+        if (seenIds.indexOf(pendaftarList[i].id) === -1) count++;
+    }
+    return count;
+}
+
+function markAllRead() {
+    var allIds = [];
+    for (var i = 0; i < pendaftarList.length; i++) {
+        allIds.push(pendaftarList[i].id);
+    }
+    localStorage.setItem(SEEN_KEY, JSON.stringify(allIds));
+    renderAdminDashboard();
+    showToast('Semua pendaftar ditandai sudah dibaca');
+}
+
+function adminLogin(e) {
+    e.preventDefault();
+    var user = document.getElementById('adminUser').value.trim();
+    var pass = document.getElementById('adminPass').value;
+    if (user === 'admin' && pass === 'pratama123') {
+        isAdminLoggedIn = true;
+        localStorage.setItem(AUTH_KEY, 'true');
+        document.getElementById('loginError').classList.remove('show');
+        document.getElementById('adminUser').value = '';
+        document.getElementById('adminPass').value = '';
+        showPage('admin-dashboard');
+        showToast('Login berhasil! Selamat datang, Admin.');
+    } else {
+        document.getElementById('loginError').classList.add('show');
+    }
+}
+
+function adminLogout() {
+    isAdminLoggedIn = false;
+    localStorage.removeItem(AUTH_KEY);
+    showPage('admin-login');
+    showToast('Anda telah logout.');
+}
+
+function renderAdminDashboard() {
+    if (!isAdminLoggedIn) {
+        showPage('admin-login');
+        return;
+    }
+    var total = pendaftarList.length;
+    var panggil = 0, praktik = 0;
+    for (var i = 0; i < pendaftarList.length; i++) {
+        if (pendaftarList[i].layanan === 'Panggilan ke Rumah') panggil++;
+        else praktik++;
+    }
+    var unread = getUnreadCount();
+    document.getElementById('statTotal').textContent = total;
+    document.getElementById('statPanggil').textContent = panggil;
+    document.getElementById('statPraktik').textContent = praktik;
+    document.getElementById('statBaru').textContent = unread;
+
+    var tbody = document.getElementById('adminTableBody');
+    if (pendaftarList.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;color:#94a3b8;padding:40px;">Belum ada data pendaftaran</td></tr>';
+        return;
+    }
+    var seenIds = JSON.parse(localStorage.getItem(SEEN_KEY)) || [];
+    var bulanList = ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
+    var html = '';
+    var reversed = pendaftarList.slice().reverse();
+    for (var i = 0; i < reversed.length; i++) {
+        var p = reversed[i];
+        var isNew = seenIds.indexOf(p.id) === -1;
+        var d = new Date(p.tglKhitan);
+        var tgl = d.getDate() + ' ' + bulanList[d.getMonth()] + ' ' + d.getFullYear();
+        var badgeClass = p.layanan === 'Panggilan ke Rumah' ? 'badge-panggil' : 'badge-praktik';
+        var newBadge = isNew ? '<span class="badge-new">BARU</span>' : '';
+        var hp = p.noHp || '-';
+        html += '<tr class="' + (isNew ? 'new-row' : '') + '"><td>' + (i + 1) + newBadge + '</td><td><strong>' + escapeHtml(p.namaAnak) + '</strong></td><td>' + p.umur + ' th</td><td>' + escapeHtml(hp) + '</td><td>' + tgl + '</td><td>' + p.jamKhitan + '</td><td>' + escapeHtml(p.metodeKhitan) + '</td><td><span class="badge ' + badgeClass + '">' + p.layanan + '</span></td><td>' + p.sumber + '</td><td><button class="btn-small btn-view" onclick="adminViewCert(' + p.id + ')">Sertifikat</button> <button class="btn-small btn-edit" onclick="adminEdit(' + p.id + ')">Edit</button> <button class="btn-small btn-delete" onclick="adminDelete(' + p.id + ')">Hapus</button></td></tr>';
+    }
+    tbody.innerHTML = html;
+}
+
+function adminViewCert(id) {
+    for (var i = 0; i < pendaftarList.length; i++) {
+        if (pendaftarList[i].id === id) {
+            var p = pendaftarList[i];
+            var certData = encodeURIComponent(JSON.stringify(p));
+            window.open('index.html?sertifikat=' + certData, '_blank');
+            return;
+        }
+    }
+}
+
+function adminDelete(id) {
+    if (!confirm('Yakin ingin menghapus data ini?')) return;
+    var newList = [];
+    for (var i = 0; i < pendaftarList.length; i++) {
+        if (pendaftarList[i].id !== id) newList.push(pendaftarList[i]);
+    }
+    pendaftarList = newList;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(pendaftarList));
+    renderAdminDashboard();
+    showToast('Data berhasil dihapus');
+}
+
+function openAddModal() {
+    document.getElementById('modalTitle').textContent = 'Tambah Pendaftar Manual';
+    document.getElementById('editId').value = '';
+    document.getElementById('adminForm').reset();
+    document.getElementById('modalOverlay').classList.add('active');
+}
+
+function adminEdit(id) {
+    var p = null;
+    for (var i = 0; i < pendaftarList.length; i++) {
+        if (pendaftarList[i].id === id) { p = pendaftarList[i]; break; }
+    }
+    if (!p) return;
+    document.getElementById('modalTitle').textContent = 'Edit Data Pendaftar';
+    document.getElementById('editId').value = p.id;
+    document.getElementById('admNamaAnak').value = p.namaAnak;
+    document.getElementById('admUmur').value = p.umur;
+    document.getElementById('admBerat').value = p.berat;
+    document.getElementById('admNamaOrtu').value = p.namaOrtu;
+    document.getElementById('admNoHp').value = p.noHp || '';
+    document.getElementById('admAlamat').value = p.alamat;
+    document.getElementById('admAlergi').value = p.alergi;
+    document.getElementById('admTglKhitan').value = p.tglKhitan;
+    document.getElementById('admJamKhitan').value = p.jamKhitan;
+    document.getElementById('admMetodeKhitan').value = p.metodeKhitan;
+    document.getElementById('admLayanan').value = p.layanan;
+    document.getElementById('admSumber').value = p.sumber;
+    document.getElementById('modalOverlay').classList.add('active');
+}
+
+function closeModal(e) {
+    if (!e || e.target === document.getElementById('modalOverlay')) {
+        document.getElementById('modalOverlay').classList.remove('active');
+    }
+}
+
+function saveAdminForm(e) {
+    e.preventDefault();
+    var editId = document.getElementById('editId').value;
+    var tglDaftarVal;
+    if (editId) {
+        tglDaftarVal = new Date().toISOString();
+        for (var j = 0; j < pendaftarList.length; j++) {
+            if (pendaftarList[j].id == editId) {
+                tglDaftarVal = pendaftarList[j].tglDaftar;
+                break;
+            }
+        }
+    } else {
+        tglDaftarVal = new Date().toISOString();
+    }
+    var data = {
+        id: editId ? parseInt(editId) : Date.now(),
+        namaAnak: document.getElementById('admNamaAnak').value.trim(),
+        umur: document.getElementById('admUmur').value,
+        berat: document.getElementById('admBerat').value,
+        namaOrtu: document.getElementById('admNamaOrtu').value.trim(),
+        noHp: document.getElementById('admNoHp').value.trim(),
+        alamat: document.getElementById('admAlamat').value.trim(),
+        alergi: document.getElementById('admAlergi').value.trim() || 'Tidak ada',
+        tglKhitan: document.getElementById('admTglKhitan').value,
+        jamKhitan: document.getElementById('admJamKhitan').value,
+        metodeKhitan: document.getElementById('admMetodeKhitan').value,
+        layanan: document.getElementById('admLayanan').value,
+        sumber: document.getElementById('admSumber').value,
+        tglDaftar: tglDaftarVal,
+        fromWeb: false
+    };
+    if (editId) {
+        for (var i = 0; i < pendaftarList.length; i++) {
+            if (pendaftarList[i].id == editId) {
+                pendaftarList[i] = data;
+                break;
+            }
+        }
+    } else {
+        pendaftarList.push(data);
+    }
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(pendaftarList));
+    closeModal();
+    renderAdminDashboard();
+    showToast(editId ? 'Data berhasil diperbarui!' : 'Data berhasil ditambahkan!');
+}
+
+function escapeHtml(text) {
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    if (isAdminLoggedIn) {
+        showPage('admin-dashboard');
+    } else {
+        showPage('admin-login');
+    }
+});
+</script>
+</body>
+</html>
