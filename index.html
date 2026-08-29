@@ -3,167 +3,27 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<title>Rumah Sunat Pratama - Khitan Tanpa Jarum Suntik</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+<title>Admin - Rumah Sunat Pratama</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--logo-url:url("data:image/jpeg;base64,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");--primary:#166534;--primary-dark:#14532d;--primary-light:#dcfce7;--accent:#22c55e;}
+:root{--logo-url:url("data:image/jpeg;base64,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");--primary:#166534;--primary-dark:#14532d;--accent:#22c55e;}
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 body{font-family:'Poppins',sans-serif;background:#f0fdf4;color:#1e293b;overflow-x:hidden;}
 .logo-img{background-image:var(--logo-url);background-size:cover;background-position:center;border-radius:50%;background-color:white;flex-shrink:0;}
 
-/* Navbar */
+/* Navbar Admin */
 .navbar{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-dark) 100%);padding:10px 14px;display:flex;justify-content:space-between;align-items:center;color:white;border-radius:0 0 20px 20px;box-shadow:0 4px 20px rgba(22,101,52,0.3);position:sticky;top:0;z-index:1000;}
 .navbar-brand{display:flex;align-items:center;gap:10px;}
 .navbar-brand .logo-img{width:40px;height:40px;border:2px solid rgba(255,255,255,0.4);}
 .navbar-brand h1{font-size:15px;font-weight:700;letter-spacing:0.3px;line-height:1.2;}
 .navbar-brand p{font-size:9px;opacity:0.85;letter-spacing:0.5px;margin:0;}
 .nav-links{display:flex;gap:5px;align-items:center;}
-.nav-links button{background:rgba(255,255,255,0.12);border:none;color:white;padding:6px 10px;border-radius:20px;cursor:pointer;font-weight:500;font-family:'Poppins',sans-serif;font-size:11px;transition:all 0.3s;}
-.nav-links button:hover,.nav-links button.active{background:rgba(255,255,255,0.3);}
-.hamburger{display:none;background:none;border:none;color:white;font-size:24px;cursor:pointer;}
-
-.mobile-nav{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:999;}
-.mobile-nav.active{display:block;}
-.mobile-nav-menu{position:absolute;top:0;right:0;width:250px;height:100%;background:linear-gradient(180deg,var(--primary),var(--primary-dark));padding:70px 16px 20px;display:flex;flex-direction:column;gap:6px;}
-.mobile-nav-menu button{background:rgba(255,255,255,0.1);border:none;color:white;padding:12px 14px;border-radius:12px;cursor:pointer;font-family:'Poppins',sans-serif;font-size:14px;font-weight:500;text-align:left;display:flex;align-items:center;gap:8px;}
-.mobile-nav-close{position:absolute;top:14px;right:14px;background:none;border:none;color:white;font-size:26px;cursor:pointer;}
+.nav-links a,.nav-links button{background:rgba(255,255,255,0.12);border:none;color:white;padding:6px 10px;border-radius:20px;cursor:pointer;font-weight:500;font-family:'Poppins',sans-serif;font-size:11px;transition:all 0.3s;text-decoration:none;display:inline-flex;align-items:center;gap:4px;}
+.nav-links a:hover,.nav-links button:hover{background:rgba(255,255,255,0.3);}
 
 /* Pages */
 .page{display:none;padding:0;min-height:calc(100vh - 180px);}
 .page.active{display:block;}
-
-/* Hero */
-.hero{background:linear-gradient(135deg,#dcfce7 0%,#bbf7d0 50%,#dcfce7 100%);padding:36px 16px;text-align:center;border-radius:0 0 40px 40px;margin-bottom:20px;}
-.hero .logo-img{width:110px;height:110px;border:4px solid white;box-shadow:0 8px 32px rgba(22,101,52,0.2);margin-bottom:14px;display:inline-block;}
-.hero h2{color:var(--primary-dark);font-size:24px;margin:0 0 6px 0;font-weight:800;}
-.hero .tagline{color:var(--primary);font-size:12px;font-weight:600;background:rgba(255,255,255,0.6);padding:5px 14px;border-radius:20px;display:inline-block;margin-bottom:12px;}
-.hero p{color:#15803d;font-size:13px;max-width:460px;margin:0 auto 20px auto;line-height:1.6;}
-.hero-buttons{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
-
-.btn-primary{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;border:none;padding:12px 24px;border-radius:30px;font-size:14px;font-weight:700;cursor:pointer;box-shadow:0 4px 15px rgba(22,101,52,0.3);text-decoration:none;display:inline-flex;align-items:center;gap:5px;transition:transform 0.2s;font-family:'Poppins',sans-serif;}
-.btn-primary:hover{transform:translateY(-2px);}
-.btn-wa{background:var(--accent);color:white;border:none;padding:12px 24px;border-radius:30px;font-size:14px;font-weight:700;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:5px;box-shadow:0 4px 15px rgba(34,197,94,0.3);font-family:'Poppins',sans-serif;transition:transform 0.2s;}
-.btn-wa:hover{transform:translateY(-2px);}
-
-/* Metode Section */
-.metode-section{padding:20px 16px 32px;max-width:1000px;margin:0 auto;}
-.metode-section h3{text-align:center;color:var(--primary-dark);font-size:22px;margin-bottom:20px;}
-.metode-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;}
-.metode-card{background:white;padding:20px;border-radius:16px;border:1px solid #bbf7d0;box-shadow:0 2px 12px rgba(22,101,52,0.06);transition:transform 0.3s,box-shadow 0.3s;}
-.metode-card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(22,101,52,0.12);}
-.metode-card .badge-metode{display:inline-block;padding:4px 12px;border-radius:20px;font-size:11px;font-weight:700;margin-bottom:10px;}
-.metode-card .badge-manual{background:#fef3c7;color:#92400e;}
-.metode-card .badge-laser{background:#dbeafe;color:#1e40af;}
-.metode-card .badge-ring{background:#fce7f3;color:#be185d;}
-.metode-card .badge-plasma{background:#e0e7ff;color:#3730a3;}
-.metode-card .badge-plasma-vip{background:#fef9c3;color:#854d0e;}
-.metode-card .badge-stapler{background:#dcfce7;color:#166534;}
-.metode-card h4{color:var(--primary-dark);margin:0 0 8px 0;font-size:16px;}
-.metode-card p{color:#4b7c5e;font-size:12px;margin:0;line-height:1.7;}
-.metode-card ul{margin:8px 0 0 16px;padding:0;color:#4b7c5e;font-size:12px;line-height:1.8;}
-.metode-card ul li{margin-bottom:2px;}
-
-/* Features */
-.features{padding:14px 16px 28px;max-width:1000px;margin:0 auto;}
-.features h3{text-align:center;color:var(--primary-dark);font-size:20px;margin-bottom:20px;}
-.feature-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;}
-.feature-card{background:white;padding:18px;border-radius:14px;text-align:center;border:1px solid #bbf7d0;box-shadow:0 2px 12px rgba(22,101,52,0.06);}
-.feature-card .icon{font-size:32px;margin-bottom:8px;}
-.feature-card h4{color:var(--primary-dark);margin:0 0 5px 0;font-size:14px;}
-.feature-card p{color:#4b7c5e;font-size:12px;margin:0;line-height:1.5;}
-
-/* Testimonials */
-.testimonials{background:white;padding:28px 16px;border-radius:20px;margin:0 16px 28px;max-width:1000px;margin-left:auto;margin-right:auto;border:1px solid #dcfce7;}
-.testimonials h3{text-align:center;color:var(--primary-dark);font-size:20px;margin-bottom:18px;}
-.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;}
-.testi-card{background:#f0fdf4;padding:16px;border-radius:12px;border:1px solid #bbf7d0;}
-.testi-card p{color:#3f6b4f;font-style:italic;margin:0 0 8px 0;font-size:12px;line-height:1.6;}
-.testi-card .author{color:var(--primary-dark);font-weight:700;margin:0;font-size:12px;}
-
-/* Form */
-.form-container{padding:16px 14px;max-width:640px;margin:0 auto;}
-.form-box{background:white;padding:22px;border-radius:18px;box-shadow:0 4px 20px rgba(0,0,0,0.06);border:1px solid #dcfce7;}
-.form-header{text-align:center;margin-bottom:20px;}
-.form-header .logo-img{width:70px;height:70px;border:3px solid #bbf7d0;margin-bottom:10px;display:inline-block;}
-.form-header h2{color:var(--primary-dark);margin:0;font-size:20px;}
-.form-header p{color:#4b7c5e;margin:4px 0 0 0;font-size:12px;}
-.form-group{margin-bottom:14px;}
-.form-group label{display:block;color:#334155;font-weight:600;margin-bottom:4px;font-size:12px;}
-.form-group label .required{color:#ef4444;}
-.form-group input,.form-group textarea,.form-group select{width:100%;padding:10px 12px;border:2px solid #dcfce7;border-radius:10px;font-size:14px;font-family:'Poppins',sans-serif;transition:border-color 0.3s;box-sizing:border-box;background:#fafffb;}
-.form-group input:focus,.form-group textarea:focus,.form-group select:focus{outline:none;border-color:var(--primary);background:white;}
-.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
-.btn-submit{width:100%;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;border:none;padding:12px;border-radius:12px;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 4px 15px rgba(22,101,52,0.3);font-family:'Poppins',sans-serif;transition:transform 0.2s;}
-.btn-submit:hover{transform:translateY(-2px);}
-
-/* Sertifikat */
-.cert-page{padding:16px 10px;text-align:center;}
-.cert-container{max-width:720px;margin:0 auto;}
-.cert-container h2{color:var(--primary-dark);margin-bottom:4px;font-size:20px;}
-.cert-container>p{color:#4b7c5e;margin-bottom:16px;font-size:13px;}
-.sertifikat{background:linear-gradient(135deg,#fffbeb 0%,#fef3c7 30%,#fffbeb 70%,#fef3c7 100%);border:5px double #b45309;border-radius:4px;padding:28px 18px;position:relative;box-shadow:0 8px 32px rgba(0,0,0,0.15);margin-bottom:16px;font-family:'Playfair Display',Georgia,serif;}
-.corner{position:absolute;width:40px;height:40px;}
-.corner-tl{top:8px;left:8px;border-top:3px solid #b45309;border-left:3px solid #b45309;}
-.corner-tr{top:8px;right:8px;border-top:3px solid #b45309;border-right:3px solid #b45309;}
-.corner-bl{bottom:8px;left:8px;border-bottom:3px solid #b45309;border-left:3px solid #b45309;}
-.corner-br{bottom:8px;right:8px;border-bottom:3px solid #b45309;border-right:3px solid #b45309;}
-.cert-header{text-align:center;margin-bottom:14px;}
-.cert-header .logo-img{width:80px;height:80px;border:3px solid #b45309;margin-bottom:8px;display:inline-block;}
-.cert-header h1{color:#92400e;font-size:22px;margin:0;font-weight:800;letter-spacing:1px;text-transform:uppercase;}
-.cert-header .line{width:90px;height:3px;background:linear-gradient(90deg,transparent,#b45309,transparent);margin:8px auto;}
-.cert-header .sub{color:#92400e;font-size:12px;margin:0;font-style:italic;}
-.cert-body{padding:12px 0;}
-.cert-body .intro{color:#78350f;font-size:14px;margin:0 0 12px 0;line-height:1.6;}
-.cert-body .nama-anak{color:#92400e;font-size:26px;margin:10px 0;font-weight:700;text-decoration:underline;text-decoration-color:#b45309;text-underline-offset:5px;}
-.cert-body .detail{color:#78350f;font-size:13px;margin:4px 0;}
-.cert-body .detail-box{background:rgba(180,83,9,0.08);border-radius:10px;padding:12px;margin:14px 14px;border:1px dashed #b45309;}
-.cert-body .detail-box p{color:#78350f;font-size:12px;margin:2px 0;}
-.cert-body .detail-box .label{color:#92400e;font-size:12px;margin:0 0 3px 0;font-weight:600;}
-.cert-body .doa{color:#92400e;font-size:13px;margin:16px 14px 0 14px;font-style:italic;line-height:1.7;}
-.cert-footer{display:flex;justify-content:space-between;align-items:flex-end;margin-top:20px;padding:0 6px;flex-wrap:wrap;gap:10px;}
-.cert-footer .info{text-align:left;}
-.cert-footer .info p{color:#78350f;font-size:10px;margin:0;}
-.cert-footer .stamp{width:70px;height:70px;border:2px solid #b45309;border-radius:50%;display:flex;align-items:center;justify-content:center;background:rgba(180,83,9,0.05);overflow:hidden;}
-.cert-footer .stamp .logo-img{width:60px;height:60px;border:none;}
-.cert-footer .ttd{text-align:center;}
-.cert-footer .ttd .line{height:35px;border-bottom:1px solid #92400e;width:90px;margin:0 auto;}
-.cert-footer .ttd p{color:#78350f;font-size:10px;margin:2px 0 0 0;}
-.cert-footer .ttd .nama{color:#92400e;font-size:10px;margin:0;font-weight:700;}
-.cert-actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;}
-.btn-print{background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;border:none;padding:10px 20px;border-radius:10px;font-size:13px;font-weight:700;cursor:pointer;box-shadow:0 4px 12px rgba(22,101,52,0.3);font-family:'Poppins',sans-serif;}
-.btn-secondary{background:#f1f5f9;color:#334155;border:2px solid #cbd5e1;padding:10px 20px;border-radius:10px;font-size:13px;font-weight:600;cursor:pointer;font-family:'Poppins',sans-serif;}
-
-/* Kontak */
-.kontak-container{padding:16px 14px;max-width:520px;margin:0 auto;}
-.kontak-box{background:white;padding:24px;border-radius:18px;box-shadow:0 4px 20px rgba(0,0,0,0.06);border:1px solid #dcfce7;text-align:center;}
-.kontak-box .logo-img{width:90px;height:90px;border:3px solid #bbf7d0;margin-bottom:10px;display:inline-block;}
-.kontak-box h2{color:var(--primary-dark);margin:0 0 4px 0;font-size:20px;}
-.kontak-box>p{color:#4b7c5e;margin:0 0 20px 0;font-size:13px;}
-.kontak-item{display:flex;align-items:center;gap:12px;padding:12px;background:#f0fdf4;border-radius:10px;margin-bottom:8px;text-align:left;border:1px solid #dcfce7;}
-.kontak-item .icon-item{font-size:22px;}
-.kontak-item h4{color:var(--primary-dark);font-weight:600;margin:0;font-size:13px;}
-.kontak-item p{color:#4b7c5e;margin:2px 0 0 0;font-size:12px;}
-.kontak-box .btn-wa-full{display:block;background:var(--accent);color:white;border:none;padding:12px 24px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;text-decoration:none;box-shadow:0 4px 15px rgba(34,197,94,0.3);font-family:'Poppins',sans-serif;margin-top:6px;transition:transform 0.2s;}
-.kontak-box .btn-wa-full:hover{transform:translateY(-2px);}
-
-/* Riwayat */
-.riwayat-container{padding:16px 14px;max-width:1000px;margin:0 auto;}
-.riwayat-box{background:white;padding:20px;border-radius:18px;box-shadow:0 4px 20px rgba(0,0,0,0.06);border:1px solid #dcfce7;}
-.riwayat-header{text-align:center;margin-bottom:18px;}
-.riwayat-header h2{color:var(--primary-dark);margin:0;font-size:20px;}
-.riwayat-header p{color:#4b7c5e;margin:4px 0 0 0;font-size:12px;}
-.riwayat-empty{text-align:center;padding:36px;color:#94a3b8;}
-.riwayat-empty .icon{font-size:40px;margin-bottom:10px;}
-.table-wrapper{overflow-x:auto;-webkit-overflow-scrolling:touch;}
-.riwayat-table{width:100%;border-collapse:collapse;margin-top:10px;min-width:500px;}
-.riwayat-table th{background:#f0fdf4;color:var(--primary-dark);padding:8px;text-align:left;font-size:11px;border-bottom:2px solid #bbf7d0;white-space:nowrap;}
-.riwayat-table td{padding:8px;border-bottom:1px solid #e2e8f0;font-size:12px;color:#334155;}
-.riwayat-table tr:hover{background:#f8fafc;}
-.badge{display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;}
-.badge-panggil{background:#dbeafe;color:#1e40af;}
-.badge-praktik{background:#dcfce7;color:#166534;}
-.btn-small{padding:4px 8px;border-radius:5px;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:'Poppins',sans-serif;}
-.btn-view{background:var(--primary);color:white;}
 
 /* Admin Login */
 .admin-login-container{padding:30px 14px;max-width:380px;margin:0 auto;min-height:60vh;display:flex;align-items:center;justify-content:center;}
@@ -178,7 +38,7 @@ body{font-family:'Poppins',sans-serif;background:#f0fdf4;color:#1e293b;overflow-
 .login-error.show{display:block;}
 
 /* Admin Dashboard */
-.admin-container{padding:14px;max-width:1000px;margin:0 auto;}
+.admin-container{padding:14px;max-width:1100px;margin:0 auto;}
 .admin-header{background:white;padding:16px;border-radius:14px;border:1px solid #dcfce7;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;}
 .admin-header h2{color:var(--primary-dark);margin:0;font-size:18px;}
 .admin-header p{color:#4b7c5e;margin:2px 0 0 0;font-size:12px;}
@@ -194,16 +54,24 @@ body{font-family:'Poppins',sans-serif;background:#f0fdf4;color:#1e293b;overflow-
 .btn-admin{padding:8px 14px;border-radius:10px;border:none;font-size:12px;font-weight:600;cursor:pointer;font-family:'Poppins',sans-serif;display:inline-flex;align-items:center;gap:4px;}
 .btn-admin-add{background:var(--primary);color:white;}
 .btn-admin-read{background:#f59e0b;color:white;}
+.btn-admin-web{background:#dbeafe;color:#1e40af;}
 .btn-admin-logout{background:#fee2e2;color:#991b1b;}
 .admin-table-wrapper{overflow-x:auto;-webkit-overflow-scrolling:touch;}
-.admin-table{width:100%;border-collapse:collapse;background:white;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.04);min-width:600px;}
+.admin-table{width:100%;border-collapse:collapse;background:white;border-radius:12px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.04);min-width:700px;}
 .admin-table th{background:#f0fdf4;color:var(--primary-dark);padding:10px;text-align:left;font-size:11px;font-weight:700;border-bottom:2px solid #bbf7d0;white-space:nowrap;}
 .admin-table td{padding:10px;border-bottom:1px solid #f1f5f9;font-size:12px;color:#334155;}
 .admin-table tr:hover{background:#f8fafc;}
 .admin-table tr.new-row{background:#fef2f2;}
 .admin-table tr.new-row:hover{background:#fee2e2;}
+.badge{display:inline-block;padding:2px 7px;border-radius:20px;font-size:10px;font-weight:600;white-space:nowrap;}
+.badge-panggil{background:#dbeafe;color:#1e40af;}
+.badge-praktik{background:#dcfce7;color:#166534;}
 .badge-new{background:#ef4444;color:white;font-size:8px;padding:1px 4px;border-radius:6px;margin-left:3px;animation:pulse 1.5s infinite;}
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.5}}
+.btn-small{padding:4px 8px;border-radius:5px;border:none;cursor:pointer;font-size:11px;font-weight:600;font-family:'Poppins',sans-serif;}
+.btn-view{background:var(--primary);color:white;}
+.btn-edit{background:#dbeafe;color:#1e40af;}
+.btn-delete{background:#fee2e2;color:#991b1b;}
 
 /* Modal */
 .modal-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);z-index:2000;align-items:center;justify-content:center;padding:14px;}
@@ -211,344 +79,49 @@ body{font-family:'Poppins',sans-serif;background:#f0fdf4;color:#1e293b;overflow-
 .modal-box{background:white;padding:20px;border-radius:18px;max-width:560px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,0.2);}
 .modal-box h3{color:var(--primary-dark);margin:0 0 14px 0;font-size:18px;}
 .modal-close{float:right;background:none;border:none;font-size:22px;cursor:pointer;color:#64748b;}
+.form-group{margin-bottom:14px;}
+.form-group label{display:block;color:#334155;font-weight:600;margin-bottom:4px;font-size:12px;}
+.form-group label .required{color:#ef4444;}
+.form-group input,.form-group textarea,.form-group select{width:100%;padding:10px 12px;border:2px solid #dcfce7;border-radius:10px;font-size:14px;font-family:'Poppins',sans-serif;transition:border-color 0.3s;box-sizing:border-box;background:#fafffb;}
+.form-group input:focus,.form-group textarea:focus,.form-group select:focus{outline:none;border-color:var(--primary);background:white;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.btn-submit{width:100%;background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:white;border:none;padding:12px;border-radius:12px;font-size:15px;font-weight:700;cursor:pointer;box-shadow:0 4px 15px rgba(22,101,52,0.3);font-family:'Poppins',sans-serif;transition:transform 0.2s;}
+.btn-submit:hover{transform:translateY(-2px);}
 
 /* Footer */
 footer{background:var(--primary-dark);color:white;padding:20px 14px;text-align:center;margin-top:30px;border-radius:20px 20px 0 0;}
 footer .brand{font-weight:700;margin-bottom:4px;font-size:14px;}
 footer .tagline{font-size:11px;opacity:0.8;}
-footer .wa{font-size:13px;opacity:0.9;margin-top:6px;font-weight:600;}
 footer .copy{margin-top:10px;font-size:10px;opacity:0.5;}
-footer .admin-link{font-size:10px;opacity:0.3;margin-top:8px;cursor:pointer;text-decoration:underline;}
-footer .admin-link:hover{opacity:0.6;}
 
 /* Toast */
 .toast{position:fixed;bottom:16px;left:50%;transform:translateX(-50%) translateY(100px);background:var(--primary-dark);color:white;padding:12px 20px;border-radius:12px;box-shadow:0 8px 32px rgba(0,0,0,0.2);z-index:3000;opacity:0;transition:all 0.4s ease;font-size:13px;font-weight:500;text-align:center;max-width:90%;}
 .toast.show{transform:translateX(-50%) translateY(0);opacity:1;}
 
-/* Responsive */
-@media (max-width:768px){.nav-links{display:none;}.hamburger{display:block;}.hero h2{font-size:20px;}.hero .logo-img{width:90px;height:90px;}.form-row{grid-template-columns:1fr;}.cert-footer{flex-direction:column;align-items:center;gap:12px;text-align:center;}.cert-footer .info{text-align:center;}.cert-body .nama-anak{font-size:20px;}.cert-body .doa{font-size:11px;margin:12px 8px 0 8px;}.sertifikat{padding:22px 12px;}.admin-header{flex-direction:column;text-align:center;}.admin-stats{grid-template-columns:repeat(2,1fr);}.feature-grid{grid-template-columns:1fr;}.testi-grid{grid-template-columns:1fr;}.metode-grid{grid-template-columns:1fr;}}
-@media (max-width:480px){.navbar-brand h1{font-size:13px;}.hero{padding:24px 12px;}.hero h2{font-size:18px;}.form-box{padding:16px;}.kontak-box{padding:18px;}.admin-login-box{padding:20px;}.stat-card .num{font-size:20px;}}
+@media (max-width:768px){.admin-header{flex-direction:column;text-align:center;}.admin-stats{grid-template-columns:repeat(2,1fr);}}
+@media (max-width:480px){.admin-login-box{padding:20px;}.stat-card .num{font-size:20px;}}
 </style>
 <base target="_blank">
 </head>
 <body>
 
-<!-- Navbar Publik - Tanpa Menu Admin -->
+<!-- Navbar Admin -->
 <nav class="navbar">
     <div class="navbar-brand">
         <div class="logo-img"></div>
         <div>
-            <h1>RUMAH SUNAT PRATAMA</h1>
-            <p>SUNAT TANPA JARUM SUNTIK</p>
+            <h1>ADMIN PANEL</h1>
+            <p>Rumah Sunat Pratama</p>
         </div>
     </div>
     <div class="nav-links">
-        <button onclick="showPage('home')" data-page="home">Beranda</button>
-        <button onclick="showPage('daftar')" data-page="daftar">Daftar</button>
-        <button onclick="showPage('riwayat')" data-page="riwayat">Riwayat</button>
-        <button onclick="showPage('kontak')" data-page="kontak">Kontak</button>
+        <a href="index.html" class="btn-admin-web">🌐 Masuk ke Website</a>
+        <button onclick="adminLogout()">🚪 Logout</button>
     </div>
-    <button class="hamburger" onclick="toggleMobileNav()">☰</button>
 </nav>
 
-<div class="mobile-nav" id="mobileNav" onclick="closeMobileNav(event)">
-    <div class="mobile-nav-menu" onclick="event.stopPropagation()">
-        <button class="mobile-nav-close" onclick="toggleMobileNav()">✕</button>
-        <button onclick="showPage('home');toggleMobileNav()">Beranda</button>
-        <button onclick="showPage('daftar');toggleMobileNav()">Daftar Khitan</button>
-        <button onclick="showPage('riwayat');toggleMobileNav()">Riwayat</button>
-        <button onclick="showPage('kontak');toggleMobileNav()">Kontak Kami</button>
-    </div>
-</div>
-
-<!-- HOME -->
-<div id="page-home" class="page active">
-    <div class="hero">
-        <div class="logo-img"></div>
-        <h2>Rumah Sunat Pratama</h2>
-        <div class="tagline">SUNAT TANPA JARUM SUNTIK</div>
-        <p>Layanan khitan modern, steril, dan nyaman dengan tenaga medis profesional. Kami hadir untuk memberikan pengalaman khitan terbaik bagi putra Anda.</p>
-        <div class="hero-buttons">
-            <button onclick="showPage('daftar')" class="btn-primary">Daftar Sekarang</button>
-            <a href="https://wa.me/6282234795114?text=Halo%20Rumah%20Sunat%20Pratama%2C%20saya%20ingin%20konsultasi%20tentang%20khitanan" target="_blank" class="btn-wa">Konsultasi WA</a>
-        </div>
-    </div>
-
-    <!-- Metode Khitan Section -->
-    <div class="metode-section">
-        <h3>Metode Khitan yang Kami Tawarkan</h3>
-        <div class="metode-grid">
-            <div class="metode-card">
-                <span class="badge-metode badge-manual">TRADISIONAL</span>
-                <h4>Khitan Manual (Konvensional)</h4>
-                <p>Metode khitan klasik menggunakan pisau bedah (bisturi) oleh tenaga medis berpengalaman. Kulit dibedah secara manual lalu dijahit menggunakan benang bedah yang akan larut sendiri.</p>
-                <ul>
-                    <li>Biaya paling terjangkau</li>
-                    <li>Cocok untuk segala usia</li>
-                    <li>Proses penyembuhan 7-10 hari</li>
-                    <li>Memerlukan perawatan luka rutin</li>
-                </ul>
-            </div>
-            <div class="metode-card">
-                <span class="badge-metode badge-laser">MODERN</span>
-                <h4>Khitan Laser (Electrocauter)</h4>
-                <p>Menggunakan alat elektrokauter yang memancarkan panas listrik berkekuatan rendah untuk memotong jaringan kulup. Pembuluh darah langsung disegel oleh panas, sehingga hampir tidak ada perdarahan.</p>
-                <ul>
-                    <li>Luka rapi dan presisi tinggi</li>
-                    <li>Minim perdarahan</li>
-                    <li>Proses penyembuhan lebih cepat</li>
-                    <li>Lebih sedikit rasa sakit</li>
-                </ul>
-            </div>
-            <div class="metode-card">
-                <span class="badge-metode badge-ring">POPULER</span>
-                <h4>Khitan Cincin / Ring (Klem)</h4>
-                <p>Menggunakan alat penjepit silikon atau plastik (klem) yang dipasang pada penis untuk mencetak garis potongan. Klem berfungsi menggantikan jahitan dan akan dilepas setelah 5-7 hari.</p>
-                <ul>
-                    <li>Tanpa jahitan</li>
-                    <li>Proses cepat (5-10 menit)</li>
-                    <li>Minim rasa sakit pasca tindakan</li>
-                    <li>Praktis dan mudah dirawat</li>
-                </ul>
-            </div>
-            <div class="metode-card">
-                <span class="badge-metode badge-plasma">TEKNOLOGI TINGGI</span>
-                <h4>Khitan Plasma Energy</h4>
-                <p>Menggunakan teknologi energi plasma untuk memotong jaringan kulup dengan presisi tinggi. Suhu rendah meminimalkan kerusakan jaringan di sekitarnya, membuat proses lebih nyaman.</p>
-                <ul>
-                    <li>Teknologi terbaru</li>
-                    <li>Suhu rendah, minim rasa panas</li>
-                    <li>Luka sangat rapi</li>
-                    <li>Penyembuhan sangat cepat</li>
-                </ul>
-            </div>
-            <div class="metode-card">
-                <span class="badge-metode badge-plasma-vip">PREMIUM</span>
-                <h4>Khitan Plasma Energy VIP</h4>
-                <p>Varian premium dari Plasma Energy dengan perawatan pasca-khitan lengkap, konsultasi dokter pribadi, dan fasilitas terbaik. Pilihan terbaik untuk kenyamanan maksimal.</p>
-                <ul>
-                    <li>Fasilitas VIP eksklusif</li>
-                    <li>Perawatan pasca lengkap</li>
-                    <li>Konsultasi dokter pribadi</li>
-                    <li>Garansi perawatan optimal</li>
-                </ul>
-            </div>
-            <div class="metode-card">
-                <span class="badge-metode badge-stapler">CEPAT</span>
-                <h4>Khitan Stapler</h4>
-                <p>Menggunakan alat stapler medis khusus yang memotong dan menjepit kulup secara bersamaan dalam satu langkah. Hasil rapi, proses sangat cepat, dan minim rasa sakit.</p>
-                <ul>
-                    <li>Proses super cepat (3-5 menit)</li>
-                    <li>Hasil sangat rapi dan simetris</li>
-                    <li>Tanpa jahitan manual</li>
-                    <li>Stapler akan rontok sendiri</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="features">
-        <h3>Mengapa Memilih Kami?</h3>
-        <div class="feature-grid">
-            <div class="feature-card"><div class="icon">✅</div><h4>Steril & Higienis</h4><p>Alat medis steril dan ruangan bersih standar rumah sakit</p></div>
-            <div class="feature-card"><div class="icon">👨‍⚕️</div><h4>Tenaga Medis Profesional</h4><p>Dilayani oleh tenaga medis berpengalaman dan bersertifikat</p></div>
-            <div class="feature-card"><div class="icon">🏠</div><h4>Pelayanan ke Rumah</h4><p>Bisa dipanggil ke rumah atau datang langsung ke praktik</p></div>
-            <div class="feature-card"><div class="icon">📜</div><h4>Sertifikat Khitan</h4><p>Mendapatkan sertifikat resmi yang bisa dicetak</p></div>
-        </div>
-    </div>
-    <div class="testimonials">
-        <h3>Testimoni Orang Tua</h3>
-        <div class="testi-grid">
-            <div class="testi-card"><p>"Pelayanan sangat ramah, anak saya tidak rewel sama sekali. Prosesnya cepat dan steril."</p><p class="author">— Bapak Ahmad, Jakarta</p></div>
-            <div class="testi-card"><p>"Sertifikatnya bagus dan bisa langsung dicetak. Sangat recommended!"</p><p class="author">— Ibu Siti, Bekasi</p></div>
-            <div class="testi-card"><p>"Khitan di rumah jadi lebih nyaman. Timnya datang tepat waktu."</p><p class="author">— Bapak Ridwan, Tangerang</p></div>
-        </div>
-    </div>
-</div>
-
-<!-- DAFTAR -->
-<div id="page-daftar" class="page">
-    <div class="form-container">
-        <div class="form-box">
-            <div class="form-header">
-                <div class="logo-img"></div>
-                <h2>Formulir Pendaftaran Khitan</h2>
-                <p>Isi data dengan lengkap untuk proses pendaftaran</p>
-            </div>
-            <form id="form-daftar" onsubmit="submitForm(event)">
-                <div class="form-group">
-                    <label>Nama Anak <span class="required">*</span></label>
-                    <input type="text" id="namaAnak" required placeholder="Masukkan nama lengkap anak">
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Umur (tahun) <span class="required">*</span></label>
-                        <input type="number" id="umur" required min="0" max="20" placeholder="Contoh: 7">
-                    </div>
-                    <div class="form-group">
-                        <label>Berat Badan (kg) <span class="required">*</span></label>
-                        <input type="number" id="berat" required min="1" max="100" step="0.1" placeholder="Contoh: 25.5">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Nama Orang Tua <span class="required">*</span></label>
-                    <input type="text" id="namaOrtu" required placeholder="Masukkan nama orang tua/wali">
-                </div>
-                <div class="form-group">
-                    <label>Alamat Lengkap <span class="required">*</span></label>
-                    <textarea id="alamat" required rows="3" placeholder="Masukkan alamat lengkap"></textarea>
-                </div>
-                <div class="form-group">
-                    <label>Riwayat Alergi</label>
-                    <textarea id="alergi" rows="2" placeholder="Jika tidak ada, tulis 'Tidak ada'"></textarea>
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label>Tanggal Khitan <span class="required">*</span></label>
-                        <input type="date" id="tglKhitan" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Jam Khitan <span class="required">*</span></label>
-                        <input type="time" id="jamKhitan" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label>Metode Khitan <span class="required">*</span></label>
-                    <select id="metodeKhitan" required>
-                        <option value="">Pilih metode khitan...</option>
-                        <option value="Manual (Konvensional)">Manual (Konvensional)</option>
-                        <option value="Laser (Electrocauter)">Laser (Electrocauter)</option>
-                        <option value="Cincin / Ring (Klem)">Cincin / Ring (Klem)</option>
-                        <option value="Plasma Energy">Plasma Energy</option>
-                        <option value="Plasma Energy VIP">Plasma Energy VIP</option>
-                        <option value="Stapler">Stapler</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Layanan <span class="required">*</span></label>
-                    <select id="layanan" required>
-                        <option value="">Pilih layanan...</option>
-                        <option value="Panggilan ke Rumah">Panggilan ke Rumah</option>
-                        <option value="Datang ke Praktik">Datang ke Praktik</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label>Tahu Rumah Sunat Pratama Dari <span class="required">*</span></label>
-                    <select id="sumber" required>
-                        <option value="">Pilih sumber informasi...</option>
-                        <option value="Google">Google / Search Engine</option>
-                        <option value="Instagram">Instagram</option>
-                        <option value="Facebook">Facebook</option>
-                        <option value="TikTok">TikTok</option>
-                        <option value="Teman/Keluarga">Teman / Keluarga</option>
-                        <option value="Spanduk/Brosur">Spanduk / Brosur</option>
-                        <option value="Lainnya">Lainnya</option>
-                    </select>
-                </div>
-                <button type="submit" class="btn-submit">Daftar Sekarang</button>
-            </form>
-        </div>
-    </div>
-</div>
-
-<!-- SERTIFIKAT -->
-<div id="page-sertifikat" class="page">
-    <div class="cert-page">
-        <div class="cert-container">
-            <h2>Pendaftaran Berhasil!</h2>
-            <p>Berikut adalah sertifikat khitanan yang bisa Anda cetak</p>
-            <div class="sertifikat" id="sertifikat-card">
-                <div class="corner corner-tl"></div>
-                <div class="corner corner-tr"></div>
-                <div class="corner corner-bl"></div>
-                <div class="corner corner-br"></div>
-                <div class="cert-header">
-                    <div class="logo-img"></div>
-                    <h1>Sertifikat Khitan</h1>
-                    <div class="line"></div>
-                    <p class="sub">Rumah Sunat Pratama</p>
-                </div>
-                <div class="cert-body">
-                    <p class="intro">Kami mengucapkan selamat karena telah menjadi seorang anak yang pemberani saat dikhitan.</p>
-                    <h2 class="nama-anak" id="cert-nama">Nama Anak</h2>
-                    <p class="detail">Telah menjalani khitan pada hari <strong id="cert-hari">Senin</strong></p>
-                    <p class="detail">Tanggal <strong id="cert-tanggal">1 Januari 2026</strong> pukul <strong id="cert-jam">08:00 WIB</strong></p>
-                    <div class="detail-box">
-                        <p class="label">Detail Pendaftaran:</p>
-                        <p>Umur: <strong id="cert-umur">7</strong> tahun | Berat: <strong id="cert-berat">25</strong> kg</p>
-                        <p>Orang Tua: <strong id="cert-ortu">Nama Ortu</strong></p>
-                        <p>Metode: <strong id="cert-metode">Manual</strong></p>
-                        <p>Layanan: <strong id="cert-layanan">Datang ke Praktik</strong></p>
-                    </div>
-                    <p class="doa">"Semoga kelak menjadi anak yang sholeh, pintar dan berguna bagi Orang Tua, Agama, Nusa dan Bangsa."</p>
-                </div>
-                <div class="cert-footer">
-                    <div class="info">
-                        <p>No. Reg: <strong id="cert-noreg">RSP-2026-001</strong></p>
-                        <p>Didaftarkan: <span id="cert-tgldaftar">29 Agustus 2026</span></p>
-                    </div>
-                    <div class="stamp"><div class="logo-img"></div></div>
-                    <div class="ttd">
-                        <div class="line"></div>
-                        <p>Tanda Tangan</p>
-                        <p class="nama">dr. Pratama</p>
-                    </div>
-                </div>
-            </div>
-            <div class="cert-actions">
-                <button onclick="printSertifikat()" class="btn-print">Cetak Sertifikat</button>
-                <button onclick="showPage('home')" class="btn-secondary">Kembali ke Beranda</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- RIWAYAT -->
-<div id="page-riwayat" class="page">
-    <div class="riwayat-container">
-        <div class="riwayat-box">
-            <div class="riwayat-header">
-                <h2>Riwayat Pendaftaran</h2>
-                <p>Daftar semua pendaftar khitan</p>
-            </div>
-            <div id="riwayat-content">
-                <div class="riwayat-empty">
-                    <div class="icon">📭</div>
-                    <p>Belum ada data pendaftaran</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- KONTAK -->
-<div id="page-kontak" class="page">
-    <div class="kontak-container">
-        <div class="kontak-box">
-            <div class="logo-img"></div>
-            <h2>Hubungi Kami</h2>
-            <p>Konsultasi dan informasi lebih lanjut</p>
-            <div style="text-align:left;margin-bottom:18px;">
-                <div class="kontak-item">
-                    <div class="icon-item">📍</div>
-                    <div><h4>Alamat Praktik</h4><p>Jl. Sunat Pratama No. 123, Jakarta Selatan</p></div>
-                </div>
-                <div class="kontak-item">
-                    <div class="icon-item">📱</div>
-                    <div><h4>WhatsApp</h4><p>0822-3479-5114</p></div>
-                </div>
-                <div class="kontak-item">
-                    <div class="icon-item">🕐</div>
-                    <div><h4>Jam Operasional</h4><p>Senin - Sabtu: 08.00 - 17.00 WIB</p></div>
-                </div>
-            </div>
-            <a href="https://wa.me/6282234795114?text=Halo%20Rumah%20Sunat%20Pratama%2C%20saya%20ingin%20konsultasi%20tentang%20khitanan" target="_blank" class="btn-wa-full">Chat WhatsApp Sekarang</a>
-        </div>
-    </div>
-</div>
-
 <!-- ADMIN LOGIN -->
-<div id="page-admin-login" class="page">
+<div id="page-admin-login" class="page active">
     <div class="admin-login-container">
         <div class="admin-login-box">
             <div class="logo-img"></div>
@@ -575,6 +148,7 @@ footer .admin-link:hover{opacity:0.6;}
             <div class="admin-actions">
                 <button class="btn-admin btn-admin-add" onclick="openAddModal()">Tambah</button>
                 <button class="btn-admin btn-admin-read" onclick="markAllRead()">Dibaca</button>
+                <a href="index.html" class="btn-admin btn-admin-web">Website</a>
                 <button class="btn-admin btn-admin-logout" onclick="adminLogout()">Logout</button>
             </div>
         </div>
@@ -587,10 +161,10 @@ footer .admin-link:hover{opacity:0.6;}
         <div class="admin-table-wrapper">
             <table class="admin-table" id="adminTable">
                 <thead>
-                    <tr><th>No</th><th>Nama Anak</th><th>Umur</th><th>Tanggal</th><th>Jam</th><th>Metode</th><th>Layanan</th><th>Sumber</th><th>Aksi</th></tr>
+                    <tr><th>No</th><th>Nama Anak</th><th>Umur</th><th>HP</th><th>Tanggal</th><th>Jam</th><th>Metode</th><th>Layanan</th><th>Sumber</th><th>Aksi</th></tr>
                 </thead>
                 <tbody id="adminTableBody">
-                    <tr><td colspan="9" style="text-align:center;color:#94a3b8;padding:40px;">Belum ada data</td></tr>
+                    <tr><td colspan="10" style="text-align:center;color:#94a3b8;padding:40px;">Belum ada data</td></tr>
                 </tbody>
             </table>
         </div>
@@ -612,13 +186,14 @@ footer .admin-link:hover{opacity:0.6;}
                 <div class="form-group"><label>Berat (kg) <span class="required">*</span></label><input type="number" id="admBerat" required min="1" max="100" step="0.1"></div>
                 <div class="form-group"><label>Nama Ortu <span class="required">*</span></label><input type="text" id="admNamaOrtu" required></div>
             </div>
+            <div class="form-row">
+                <div class="form-group"><label>No HP <span class="required">*</span></label><input type="tel" id="admNoHp" required placeholder="08123456789"></div>
+                <div class="form-group"><label>Tanggal Khitan <span class="required">*</span></label><input type="date" id="admTglKhitan" required></div>
+            </div>
             <div class="form-group"><label>Alamat <span class="required">*</span></label><textarea id="admAlamat" required rows="2"></textarea></div>
             <div class="form-group"><label>Riwayat Alergi</label><textarea id="admAlergi" rows="2" placeholder="Tidak ada"></textarea></div>
             <div class="form-row">
-                <div class="form-group"><label>Tanggal Khitan <span class="required">*</span></label><input type="date" id="admTglKhitan" required></div>
                 <div class="form-group"><label>Jam Khitan <span class="required">*</span></label><input type="time" id="admJamKhitan" required></div>
-            </div>
-            <div class="form-row">
                 <div class="form-group">
                     <label>Metode Khitan <span class="required">*</span></label>
                     <select id="admMetodeKhitan" required>
@@ -630,6 +205,8 @@ footer .admin-link:hover{opacity:0.6;}
                         <option value="Stapler">Stapler</option>
                     </select>
                 </div>
+            </div>
+            <div class="form-row">
                 <div class="form-group">
                     <label>Layanan <span class="required">*</span></label>
                     <select id="admLayanan" required>
@@ -637,19 +214,19 @@ footer .admin-link:hover{opacity:0.6;}
                         <option value="Datang ke Praktik">Datang ke Praktik</option>
                     </select>
                 </div>
-            </div>
-            <div class="form-group">
-                <label>Sumber Info <span class="required">*</span></label>
-                <select id="admSumber" required>
-                    <option value="Manual (Admin)">Input Manual Admin</option>
-                    <option value="Google">Google</option>
-                    <option value="Instagram">Instagram</option>
-                    <option value="Facebook">Facebook</option>
-                    <option value="TikTok">TikTok</option>
-                    <option value="Teman/Keluarga">Teman/Keluarga</option>
-                    <option value="Spanduk/Brosur">Spanduk/Brosur</option>
-                    <option value="Lainnya">Lainnya</option>
-                </select>
+                <div class="form-group">
+                    <label>Sumber Info <span class="required">*</span></label>
+                    <select id="admSumber" required>
+                        <option value="Manual (Admin)">Input Manual Admin</option>
+                        <option value="Google">Google</option>
+                        <option value="Instagram">Instagram</option>
+                        <option value="Facebook">Facebook</option>
+                        <option value="TikTok">TikTok</option>
+                        <option value="Teman/Keluarga">Teman/Keluarga</option>
+                        <option value="Spanduk/Brosur">Spanduk/Brosur</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
+                </div>
             </div>
             <button type="submit" class="btn-submit" style="margin-top:6px;">Simpan Data</button>
         </form>
@@ -658,47 +235,29 @@ footer .admin-link:hover{opacity:0.6;}
 
 <!-- FOOTER -->
 <footer>
-    <p class="brand">Rumah Sunat Pratama</p>
+    <p class="brand">Admin Panel - Rumah Sunat Pratama</p>
     <p class="tagline">Sunat Tanpa Jarum Suntik — Aman & Menyenangkan</p>
-    <p class="wa">WhatsApp: 0822-3479-5114</p>
     <p class="copy">2026 Rumah Sunat Pratama. All rights reserved.</p>
-    <p class="admin-link" onclick="showPage('admin-login')">Panel Admin</p>
 </footer>
 
 <!-- TOAST -->
 <div id="toast" class="toast"></div>
 
 <script>
-// ===== DATA =====
-const STORAGE_KEY = 'rsp_pendaftar_v3';
-const SEEN_KEY = 'rsp_admin_seen_v3';
-const AUTH_KEY = 'rsp_admin_auth_v3';
+const STORAGE_KEY = 'rsp_pendaftar_v4';
+const SEEN_KEY = 'rsp_admin_seen_v4';
+const AUTH_KEY = 'rsp_admin_auth_v4';
 
 let pendaftarList = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
 let isAdminLoggedIn = localStorage.getItem(AUTH_KEY) === 'true';
 
-// ===== NAVIGATION =====
 function showPage(page) {
     document.querySelectorAll('.page').forEach(function(p) { p.classList.remove('active'); });
-    document.querySelectorAll('.nav-links button').forEach(function(b) { b.classList.remove('active'); });
     document.getElementById('page-' + page).classList.add('active');
-    var navBtn = document.querySelector('[data-page="' + page + '"]');
-    if (navBtn) navBtn.classList.add('active');
     window.scrollTo(0, 0);
-    if (page === 'riwayat') renderRiwayat();
     if (page === 'admin-dashboard') renderAdminDashboard();
 }
 
-function toggleMobileNav() {
-    document.getElementById('mobileNav').classList.toggle('active');
-}
-function closeMobileNav(e) {
-    if (e.target === document.getElementById('mobileNav')) {
-        document.getElementById('mobileNav').classList.remove('active');
-    }
-}
-
-// ===== TOAST =====
 function showToast(msg) {
     var toast = document.getElementById('toast');
     toast.textContent = msg;
@@ -706,7 +265,6 @@ function showToast(msg) {
     setTimeout(function() { toast.classList.remove('show'); }, 3000);
 }
 
-// ===== NOTIFICATIONS =====
 function getUnreadCount() {
     var seenIds = JSON.parse(localStorage.getItem(SEEN_KEY)) || [];
     var count = 0;
@@ -726,109 +284,6 @@ function markAllRead() {
     showToast('Semua pendaftar ditandai sudah dibaca');
 }
 
-// ===== FORM SUBMIT =====
-function submitForm(e) {
-    e.preventDefault();
-    var data = {
-        id: Date.now(),
-        namaAnak: document.getElementById('namaAnak').value.trim(),
-        umur: document.getElementById('umur').value,
-        berat: document.getElementById('berat').value,
-        namaOrtu: document.getElementById('namaOrtu').value.trim(),
-        alamat: document.getElementById('alamat').value.trim(),
-        alergi: document.getElementById('alergi').value.trim() || 'Tidak ada',
-        tglKhitan: document.getElementById('tglKhitan').value,
-        jamKhitan: document.getElementById('jamKhitan').value,
-        metodeKhitan: document.getElementById('metodeKhitan').value,
-        layanan: document.getElementById('layanan').value,
-        sumber: document.getElementById('sumber').value,
-        tglDaftar: new Date().toISOString(),
-        fromWeb: true
-    };
-    pendaftarList.push(data);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(pendaftarList));
-    fillCertificate(data);
-    document.getElementById('form-daftar').reset();
-    showPage('sertifikat');
-    showToast('Pendaftaran berhasil disimpan!');
-}
-
-// ===== CERTIFICATE =====
-function fillCertificate(data) {
-    var dateObj = new Date(data.tglKhitan);
-    var hariList = ['Minggu','Senin','Selasa','Rabu','Kamis','Jumat','Sabtu'];
-    var bulanList = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
-    var hari = hariList[dateObj.getDay()];
-    var tanggal = dateObj.getDate() + ' ' + bulanList[dateObj.getMonth()] + ' ' + dateObj.getFullYear();
-    var noReg = 'RSP-' + dateObj.getFullYear() + '-' + String(Math.floor(Math.random() * 900) + 100);
-    var now = new Date(data.tglDaftar);
-    var tglDaftar = now.getDate() + ' ' + bulanList[now.getMonth()] + ' ' + now.getFullYear();
-
-    document.getElementById('cert-nama').textContent = data.namaAnak;
-    document.getElementById('cert-hari').textContent = hari;
-    document.getElementById('cert-tanggal').textContent = tanggal;
-    document.getElementById('cert-jam').textContent = data.jamKhitan + ' WIB';
-    document.getElementById('cert-umur').textContent = data.umur;
-    document.getElementById('cert-berat').textContent = data.berat;
-    document.getElementById('cert-ortu').textContent = data.namaOrtu;
-    document.getElementById('cert-metode').textContent = data.metodeKhitan;
-    document.getElementById('cert-layanan').textContent = data.layanan;
-    document.getElementById('cert-noreg').textContent = noReg;
-    document.getElementById('cert-tgldaftar').textContent = tglDaftar;
-}
-
-function printSertifikat() {
-    var sertifikat = document.getElementById('sertifikat-card').cloneNode(true);
-    var printWindow = window.open('', '_blank');
-    var html = '<html><head><title>Sertifikat Khitan - Rumah Sunat Pratama</title>';
-    html += '<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">';
-    html += '<style>@media print{body{margin:0;padding:15px;}}</style>';
-    html += '</head><body style="font-family:Playfair Display,Georgia,serif;background:#f5f5f5;display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0;">';
-    html += '<div>' + sertifikat.outerHTML + '</div>';
-    html += '<script>window.onload=function(){setTimeout(function(){window.print();},500);};<' + '/script>';
-    html += '</body></html>';
-    printWindow.document.write(html);
-    printWindow.document.close();
-}
-
-// ===== RIWAYAT =====
-function renderRiwayat() {
-    var container = document.getElementById('riwayat-content');
-    if (pendaftarList.length === 0) {
-        container.innerHTML = '<div class="riwayat-empty"><div class="icon">📭</div><p>Belum ada data pendaftaran</p></div>';
-        return;
-    }
-    var bulanList = ['Jan','Feb','Mar','Apr','Mei','Jun','Jul','Agu','Sep','Okt','Nov','Des'];
-    var html = '<div class="table-wrapper"><table class="riwayat-table"><thead><tr><th>No</th><th>Nama Anak</th><th>Umur</th><th>Tanggal</th><th>Metode</th><th>Layanan</th><th>Aksi</th></tr></thead><tbody>';
-    var reversed = pendaftarList.slice().reverse();
-    for (var i = 0; i < reversed.length; i++) {
-        var p = reversed[i];
-        var d = new Date(p.tglKhitan);
-        var tgl = d.getDate() + ' ' + bulanList[d.getMonth()] + ' ' + d.getFullYear();
-        var badgeClass = p.layanan === 'Panggilan ke Rumah' ? 'badge-panggil' : 'badge-praktik';
-        html += '<tr><td>' + (i + 1) + '</td><td><strong>' + escapeHtml(p.namaAnak) + '</strong></td><td>' + p.umur + ' th</td><td>' + tgl + '</td><td>' + escapeHtml(p.metodeKhitan) + '</td><td><span class="badge ' + badgeClass + '">' + p.layanan + '</span></td><td><button class="btn-small btn-view" onclick="viewDetail(' + p.id + ')">Lihat</button></td></tr>';
-    }
-    html += '</tbody></table></div>';
-    container.innerHTML = html;
-}
-
-function viewDetail(id) {
-    for (var i = 0; i < pendaftarList.length; i++) {
-        if (pendaftarList[i].id === id) {
-            fillCertificate(pendaftarList[i]);
-            showPage('sertifikat');
-            return;
-        }
-    }
-}
-
-function escapeHtml(text) {
-    var div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-}
-
-// ===== ADMIN =====
 function adminLogin(e) {
     e.preventDefault();
     var user = document.getElementById('adminUser').value.trim();
@@ -849,7 +304,7 @@ function adminLogin(e) {
 function adminLogout() {
     isAdminLoggedIn = false;
     localStorage.removeItem(AUTH_KEY);
-    showPage('home');
+    showPage('admin-login');
     showToast('Anda telah logout.');
 }
 
@@ -872,7 +327,7 @@ function renderAdminDashboard() {
 
     var tbody = document.getElementById('adminTableBody');
     if (pendaftarList.length === 0) {
-        tbody.innerHTML = '<tr><td colspan="9" style="text-align:center;color:#94a3b8;padding:40px;">Belum ada data pendaftaran</td></tr>';
+        tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;color:#94a3b8;padding:40px;">Belum ada data pendaftaran</td></tr>';
         return;
     }
     var seenIds = JSON.parse(localStorage.getItem(SEEN_KEY)) || [];
@@ -886,7 +341,8 @@ function renderAdminDashboard() {
         var tgl = d.getDate() + ' ' + bulanList[d.getMonth()] + ' ' + d.getFullYear();
         var badgeClass = p.layanan === 'Panggilan ke Rumah' ? 'badge-panggil' : 'badge-praktik';
         var newBadge = isNew ? '<span class="badge-new">BARU</span>' : '';
-        html += '<tr class="' + (isNew ? 'new-row' : '') + '"><td>' + (i + 1) + newBadge + '</td><td><strong>' + escapeHtml(p.namaAnak) + '</strong></td><td>' + p.umur + ' th</td><td>' + tgl + '</td><td>' + p.jamKhitan + '</td><td>' + escapeHtml(p.metodeKhitan) + '</td><td><span class="badge ' + badgeClass + '">' + p.layanan + '</span></td><td>' + p.sumber + '</td><td><button class="btn-small btn-view" onclick="adminViewCert(' + p.id + ')">Sertifikat</button> <button class="btn-small" style="background:#dbeafe;color:#1e40ab;" onclick="adminEdit(' + p.id + ')">Edit</button> <button class="btn-small" style="background:#fee2e2;color:#991b1b;" onclick="adminDelete(' + p.id + ')">Hapus</button></td></tr>';
+        var hp = p.noHp || '-';
+        html += '<tr class="' + (isNew ? 'new-row' : '') + '"><td>' + (i + 1) + newBadge + '</td><td><strong>' + escapeHtml(p.namaAnak) + '</strong></td><td>' + p.umur + ' th</td><td>' + escapeHtml(hp) + '</td><td>' + tgl + '</td><td>' + p.jamKhitan + '</td><td>' + escapeHtml(p.metodeKhitan) + '</td><td><span class="badge ' + badgeClass + '">' + p.layanan + '</span></td><td>' + p.sumber + '</td><td><button class="btn-small btn-view" onclick="adminViewCert(' + p.id + ')">Sertifikat</button> <button class="btn-small btn-edit" onclick="adminEdit(' + p.id + ')">Edit</button> <button class="btn-small btn-delete" onclick="adminDelete(' + p.id + ')">Hapus</button></td></tr>';
     }
     tbody.innerHTML = html;
 }
@@ -894,8 +350,9 @@ function renderAdminDashboard() {
 function adminViewCert(id) {
     for (var i = 0; i < pendaftarList.length; i++) {
         if (pendaftarList[i].id === id) {
-            fillCertificate(pendaftarList[i]);
-            showPage('sertifikat');
+            var p = pendaftarList[i];
+            var certData = encodeURIComponent(JSON.stringify(p));
+            window.open('index.html?sertifikat=' + certData, '_blank');
             return;
         }
     }
@@ -913,7 +370,6 @@ function adminDelete(id) {
     showToast('Data berhasil dihapus');
 }
 
-// ===== MODAL =====
 function openAddModal() {
     document.getElementById('modalTitle').textContent = 'Tambah Pendaftar Manual';
     document.getElementById('editId').value = '';
@@ -933,6 +389,7 @@ function adminEdit(id) {
     document.getElementById('admUmur').value = p.umur;
     document.getElementById('admBerat').value = p.berat;
     document.getElementById('admNamaOrtu').value = p.namaOrtu;
+    document.getElementById('admNoHp').value = p.noHp || '';
     document.getElementById('admAlamat').value = p.alamat;
     document.getElementById('admAlergi').value = p.alergi;
     document.getElementById('admTglKhitan').value = p.tglKhitan;
@@ -970,6 +427,7 @@ function saveAdminForm(e) {
         umur: document.getElementById('admUmur').value,
         berat: document.getElementById('admBerat').value,
         namaOrtu: document.getElementById('admNamaOrtu').value.trim(),
+        noHp: document.getElementById('admNoHp').value.trim(),
         alamat: document.getElementById('admAlamat').value.trim(),
         alergi: document.getElementById('admAlergi').value.trim() || 'Tidak ada',
         tglKhitan: document.getElementById('admTglKhitan').value,
@@ -996,10 +454,16 @@ function saveAdminForm(e) {
     showToast(editId ? 'Data berhasil diperbarui!' : 'Data berhasil ditambahkan!');
 }
 
-// ===== INIT =====
+function escapeHtml(text) {
+    var div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
+}
+
 document.addEventListener('DOMContentLoaded', function() {
-    // Check URL hash for admin access
-    if (window.location.hash === '#admin') {
+    if (isAdminLoggedIn) {
+        showPage('admin-dashboard');
+    } else {
         showPage('admin-login');
     }
 });
